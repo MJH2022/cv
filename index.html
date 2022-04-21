@@ -4,34 +4,73 @@
 <head>
   <meta charset="utf-8">
   <title>personal site</title>
+  <link rel="stylesheet" href="css/Style.css">
+
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #00ADB5;
+}
+
+
+</style>
+
 </head>
 
 <body>
-  <a href="About us.html">About us</a>
+  <ul>
+    <li><a href="About us.html">About us</a></li>
+    <li><a href="Contact.html">Contact us</a></li>
+  </ul>
+
   <br>
-  <table cellspacing="20">
+
+  <table class="center">
     <tr>
       <td><img src="Image/klienberg.png" alt="Jon Kleinberg's pic"></td>
-      <td><h1>Hussaini</h1>
-      <p><em>Tisch <strong>University</strong> Professor</em>
-        <br>Department of <a href="http://www.cs.cornell.edu/">Computer Science</a>
-        <br> Department of <a href="http://www.infosci.cornell.edu/">Information Science</a>
-        <br> <a href="http://cuinfo.cornell.edu/">Cornell University</a>
-        <br> <a href="001 Introduction to HTML.mp4">Ithaca, NY 14853</a> <br>
-      </p></td>
+      <td>
+        <h1>Hussaini</h1>
+        <p><em>Tisch <strong>University</strong> Professor</em>
+          <br>Department of <a href="http://www.cs.cornell.edu/">Computer Science</a>
+          <br> Department of <a href="http://www.infosci.cornell.edu/">Information Science</a>
+          <br> <a href="http://cuinfo.cornell.edu/">Cornell University</a>
+          <br> <a href="001 Introduction to HTML.mp4">Ithaca, NY 14853</a> <br>
+        </p>
+      </td>
     </tr>
   </table>
 
 
 
 
-  <p>I am a professor at Cornell University. My research focuses on algorithms and networks, the roles they play in large-scale social and information systems, and their broader societal implications. My work has been supported by an NSF Career
+  <p style="text-align:center;">I am a professor at Cornell University. My research focuses on algorithms and networks, the roles they play in large-scale social and information systems, and their broader societal implications. My work has been supported by an NSF Career
     Award, an ONR Young Investigator Award, a MacArthur Foundation Fellowship, a Packard Foundation Fellowship, a Simons Investigator Award, a Sloan Foundation Fellowship, a Vannevar Bush Faculty Fellowship, and grants from Facebook, Google, Yahoo,
     the MacArthur Foundation, the ARO, and the NSF. I am a member of the National Academy of Sciences, the National Academy of Engineering, and the American Academy of Arts and Sciences.
   </p>
-  <hr size="2" color="grey" noshade>
-  <h3>Books</h3>
-  <table  border="1">
+  <hr>
+  <h2>Books</h2>
+  <table class="center">
     <thead>
       <th>Item</th>
       <th>Books name</th>
@@ -49,10 +88,11 @@
       <td>Reza</td>
     </tr>
   </table>
+  <br>
 
-  <hr size="2" color="grey" noshade>
-  <h3>Skills</h3>
-  <table cellspacing="10">
+  <hr><br>
+  <h2>Skills</h2>
+  <table class="center" style="width:50%;">
 
     <tr>
       <td>HTML</td>
@@ -66,17 +106,14 @@
       <td>Python</td>
       <td>⭐⭐</td>
     </tr>
-      </table>
-<br>
-  <a href="Books and Teaching.html">Books and Teaching</a>
+
+  </table><br>
+  <hr>
+
   <br>
-  <a href="Advising.html">Advising</a>
+  <a href="Books and Teaching.html">Books and Teaching</a>&nbsp;&nbsp;
+  <a href="Advising.html">Advising</a> <a href="Marketing.html">Marketing</a> <a href="Sales.html">Sales</a>
   <br>
-  <a href="Marketing.html">Marketing</a>
-  <br>
-  <a href="Sales.html">Sales</a>
-  <hr size='2' color='grey'>
-  <a href="Contact.html">contact</a>
 </body>
 
 </html>
